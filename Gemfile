@@ -61,6 +61,8 @@ end
 # Windows does not include zoneinfo files, so bundle the tzinfo-data gem
 gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
 
+#---------my added gems
+
 # Active admin and integrations
 gem 'activeadmin'
 gem 'devise'
@@ -76,3 +78,5 @@ gem 'friendly_id', '~> 5.2.4'
 
 #font awesome 5 gem
 gem 'font_awesome5_rails'
+# Nokogiri
+gem 'nokogiri', '~> 1.6', '>= 1.6.8'
