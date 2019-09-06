@@ -1,0 +1,268 @@
+<DOCTYPE html>
+	<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<title>Recording</title>
+		<link rel="stylesheet" href="main.css">
+		<!-- google fonts -->
+		<link href="https://fonts.googleapis.com/css?family=Cantarell:700i|Niconne|Roboto:500&display=swap" rel="stylesheet">
+		<!--   -->
+	</head>
+	<body>
+		<!-- header -->
+		<header>
+			<nav>
+				<div class="nav-container">
+					<%= image_tag("logo.jpg", class: "nav-container-image") %>
+					<div class="nav-bars">
+						<div class="bar"></div>
+						<div class="bar"></div>
+						<div class="bar"></div>
+					</div>
+				</div>
+
+				<ul class="testing">
+					<li><a class="nav-links" href="#">Home</a></li>
+                    <li><a class="nav-links scrolling-link" href="#services-link">services</a></li>
+					<li><a class="nav-links scrolling-link" href="#about-link">About</a></li>
+					<li><a class="nav-links scrolling-link" href="#reviews">Events</a></li>
+					<li><a class="nav-links scrolling-link" href="#contact-link">Contact</a></li>
+					<li><a class="nav-links scrolling-link" href="#contact-link">book online</a></li>
+				</ul>
+
+			</nav>
+
+			<div class="banner" style="height: 700px;">
+				<div class="banner-center">
+					<%= image_tag("logo.jpg", class: "visible-logo") %>
+					<h3>African Empowerment Agency.</h3>
+					<div class="banner-icons">
+						<a href="#">
+							<%= fa_icon('facebook-f', type: :brand)%>
+						</a>
+						<a href="#">
+							<%= fa_icon('instagram', type: :brand)%>
+						</a>
+						<a href="#">
+							<%= fa_icon('pinterest-p', type: :brand)%>
+						</a>
+					</div>
+				</div>
+			</div>
+
+			<div id="special-link-div">
+			    <a href="#services-link" class="header-special-link scrolling-link">
+                <%= fa_icon('arrow-down')%>
+                </a>
+			</div>
+		</header>
+<!--End of header-->
+		
+<!--Motivation-->
+		<section id="motivation">
+			<div id="motivation-content">
+				<h1>
+					To economically empower the underprivileged, vulnerable, uneducated and educated Africans.
+				</h1>
+				<h4>
+					Contact us in case you need any of our services. We give the best of ourselves.
+				</h4>
+				<a style="display: block" id="motivation-contact" href="#">Contact</a>
+			</div>
+			
+		</section>
+<!--End of Motivation--->
+		
+<!-- services -->
+		<section id= "services-link" class="services">
+		    
+			<div id="services-content-holder">
+			    <div class="service-content" id="service-content-title">
+					<h1>Our Services</h1>
+				</div>
+				<div class="service-content">
+				<i class="fa fa-cogs"></i>
+                    <h3><a href="#">Event planning</a></h3><br>
+					<div class="service-pic-div-one">
+					    <a href="services-pic-link">
+					    <%= image_tag("event-planing-afea.jpg", class: "service-pic img-thumbnail", alt: "Edit Entry") %>
+					    </a>
+					    <p class="see-more-paragraph"><a href="#" class="see-more-link">see more</a></p>
+					</div>
+					
+					<p class="service-content-info">AFEA being the heart of event planning and hostesses has been in several events of high and international standards.We strive to give you the best more than your wallets can ever afford because we believe the devotion we bring to your event will give you a smile that will last a life time.</p>
+
+				</div>
+				<div class="service-content">
+					<i class="fa fa-cogs"></i>
+					<h3><a href="#">Hostesses</a></h3><br>
+					<div class="service-pic-div-two">
+					    <a href="services-pic-link">
+					    	<%= image_tag("hostessesinred.jpeg", class: "service-pic img-thumbnail", alt:"missing pic") %>
+					    </a>
+					    <p class="see-more-paragraph"><a href="#" class="see-more-link">see more</a></p>
+					</div>
+					<p class="service-content-info">AFEA Hostesses have a high level of customer service expertise, professionalism in people management, they multi task and also take care of the basic Math and Planning of events
+					</p>
+				</div>
+				<div class="service-content">
+					<i class="fa fa-cogs"></i>
+					<h3><a href="#">Arts and craft</a></h3><br>
+					<div class="service-pic-div-three">
+					    <a href="services-pic-link">
+					    <%= image_tag("product-photo-three.jpg", class: "service-pic img-thumbnail", alt: "missing pic") %>
+					    </a>
+					    <p class="see-more-paragraph"><a href="#" class="see-more-link">see more</a></p>
+					</div>
+					<p class="service-content-info">AFEA has been promoting and developing arts and crafts by making things with our own hand and mainly things one would consider waste. Recycling and waste transformation is the main drive of AFEA arts and crafts for healthy environment and economic empowerment
+					.</p>
+				</div>
+			</div>
+			
+			
+		</section>
+<!-- end of services -->
+
+
+<!-- Events -->
+		<section id="reviews" class="py-5">
+            <div class="row">
+               <div class="col-10 d-flex justify-content-center mx-auto">
+                  <h1 id="events-main-header" class="p-2">Events</h1> 
+               </div>
+                
+            </div>
+           
+            <div id="slider" class="carousel slide" data-ride="carousel">
+                <div class="carousel-inner">
+    <!--               carousel item-->
+                    <div class="carousel-item active">
+                        <div class="container">
+                            <div class="row">
+                                <div class="col-lg-10 mx-auto d-flex justify-content-between review-item py-3">
+    <!--                               image-->
+                                    <div class="align-self-center ml-3">
+                                         <%= image_tag("my-phont-pic3327.jpg", class: "rounded-circle review-img", alt: "missing pic") %>
+                                    </div>
+    <!--                                text-->
+                                   <div class="review-text px-5">
+                                       <h2 class="text-capitalize mb-3 primary-color">2019 Edition Mount Cameroon Race</h2>
+                                       <div class="lead text-muted">Afea taking part in the 2019 mount Cameroon race.</div>
+                                   </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div> 
+    <!--                end of carousel item-->
+    <!--              carousel item-->
+                   <div class="carousel-item">
+                        <div class="container">
+                            <div class="row">
+                                <div class="col-lg-10 mx-auto d-flex justify-content-between review-item py-3">
+    <!--                               image-->
+                                    <div class="align-self-center ml-3"> -->
+                                        <%= image_tag("my-phone-pic3355.jpg", class: "rounded-circle review-img", alt: "missing pic") %>
+                                    </div>
+    <!--                                text-->
+                                   <div class="review-text px-5">
+                                       <h2 class="text-capitalize mb-3 primary-color">Fako Ndolo</h2>
+                                       <div class="lead text-muted">Afea taking part in Fako ndolo</div>
+                                   </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+    <!--                end of carousel item -->
+               <!--              carousel item-->
+                   <div class="carousel-item">
+                        <div class="container">
+                            <div class="row">
+                                <div class="col-lg-10 mx-auto d-flex justify-content-between review-item py-3">
+    <!--                               image-->
+                                    <div class="align-self-center ml-3">
+                                        <%= image_tag("my-phone-pic.jpg", class: "rounded-circle review-img", alt: "missing pic") %>
+                                    </div>
+    <!--                                text-->
+                                   <div class="review-text px-5">
+                                       <h2 class="text-capitalize mb-3 primary-color">Feneral Ceremony</h2>
+                                       <div class="lead text-muted">Afea taking part in funeral ceremony</div>
+                                   </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+    <!--                end of carousel item -->
+                </div>
+<!--            carousel controls-->
+               <a href="#slider" class="carousel-control-prev" role="button" data-slide="prev">
+                   <span class="carousel-control-prev-icon"></span>
+               </a>
+
+               <a href="#slider" class="carousel-control-next" role="button" data-slide="next">
+                   <span class="carousel-control-next-icon"></span>
+               </a>
+        </div>
+    </section>
+<!-- end of events -->
+
+<!-- About section -->
+		<section id="about-link" class="about">
+			<div class="about-card">
+				<a class="section-links" href="#"><h3>About Us</h3></a>
+				<i class="fas fa-car"></i>
+				<p>AFRICAN EMPOWERMENT AGENCY (herein after referred to as AFEA)is an organization that has as its mission to economically empower the under privileged, vulnerable and uneducated, especially women.
+				through business creation and innovation, entrepreneurship and self-employment, capacity building training, economic empowerment programs. Our existence is to guarantee financial independence for the uneducated persons, especially women who are very much uncertain about their future. If developed and properly groomed, every under privilege, unskilled and vulnerable persons can guarantee for themselves financial independence.
+                The headquarters shall be in Buea and branches shall be created systematically when the need arises within Cameroon and beyond.
+				</p>
+				<a class="section-links" id="section-see-more-link" href="#">see more about AFEA</a>
+			</div>
+		</section>
+
+	
+<!-- End of About -->
+
+<!-- Filler section -->
+		<section class="filler">
+			
+		</section>
+<!-- end of filler section -->
+
+<!-- Contact -->
+		<section id="contact-link" class="contact">
+			<article class="contact-card">
+				<form>
+					<h3>Leave us a message</h3>
+					<input type="text" id="name" placeholder="Your name">
+					<input type="email" id="email" placeholder="Your email">
+					<textarea name="comment" id="" cols="30" rows="10" placeholder="leave a comment"></textarea>
+					<button type="submit" class="form-btn">Submit</button>
+				</form>
+			</article>
+		</section>
+<!-- end of Contact -->
+
+<!-- footer -->
+		<footer>
+			<div class="footer-icons">
+				<a href="#"><%= fa_icon('facebook-f', type: :brand) %></a>
+				<a href="#"><%= fa_icon('instagram', type: :brand) %></a>
+				<a href="#"><%= fa_icon('pinterest-p', type: :brand)%></a>
+				
+			</div>
+        <ul id="footer-list">
+            <li class="footer-list-items"><a href="#">Copyright&copy;Organisation AFEA</a></li>
+            <li class="footer-list-items"><a href="#">Designed by It's Tech</a></li>
+            <li class="footer-list-items"><a href="#">Blog</a></li>
+            <li class="footer-list-items"><a href="#">Others</a></li>
+        </ul>
+		</footer>
+<!-- end footer -->
+		
+		<script src="jquery-3.4.1.min.js"></script>
+		<script src="bootstrap.bundle.min.js"></script>
+		<script src="magnific-popup/jquery.magnific-popup.js"></script>
+		<script src="script.js"></script>
+		
+	</body>
+</html>

@@ -64,3 +64,15 @@ gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
 # Active admin and integrations
 gem 'activeadmin'
 gem 'devise'
+
+# Bootstrap 4 gem
+gem 'bootstrap', '~> 4.3.1'
+
+# jQuery gem
+gem 'jquery-rails'
+
+#friendly id
+gem 'friendly_id', '~> 5.2.4'
+
+#font awesome 5 gem
+gem 'font_awesome5_rails'
