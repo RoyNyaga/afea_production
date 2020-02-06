@@ -63,7 +63,7 @@ nav ul a:hover{
 
 header{
 	min-height: 100vh;
-	background: linear-gradient(rgba(0, 0, 0, 0.1),rgba(0, 0, 0, 0.5)), image-url('other-header-pic.jpeg');
+	background: linear-gradient(rgba(0, 0, 0, 0.1),rgba(0, 0, 0, 0.5)), url('https://res.cloudinary.com/it-s-tech/image/upload/v1580955271/other-header-pic_hjkb67.jpg');
 	background-position: center;
 	background-size: cover;
 	background-attachment: fixed;
@@ -314,19 +314,19 @@ nav{
 
 .service-pic-div-one{
     padding: 10px;
-    background: linear-gradient(rgba(0, 0, 0, 0.1),rgba(0, 0, 0, 0.5)), image-url('event-planing-afea.jpg')center/cover fixed no-repeat;
+    background: linear-gradient(rgba(0, 0, 0, 0.1),rgba(0, 0, 0, 0.5)), url('https://res.cloudinary.com/it-s-tech/image/upload/v1580955255/event-planing-afea_brfuqv.jpg')center/cover fixed no-repeat;
     position: relative;
 }
 
 .service-pic-div-two{
     padding: 10px;
-    background: linear-gradient(rgba(0, 0, 0, 0.1),rgba(0, 0, 0, 0.5)), image-url('hostessesinred.jpeg')center/cover fixed no-repeat;
+    background: linear-gradient(rgba(0, 0, 0, 0.1),rgba(0, 0, 0, 0.5)), url('https://res.cloudinary.com/it-s-tech/image/upload/v1580955270/hostessesinred_w9o2xv.jpg')center/cover fixed no-repeat;
     position: relative;
 }
 
 .service-pic-div-three{
     padding: 10px;
-    background: linear-gradient(rgba(0, 0, 0, 0.1),rgba(0, 0, 0, 0.5)), image-url('product-photo-three.jpg')center/cover fixed no-repeat;
+    background: linear-gradient(rgba(0, 0, 0, 0.1),rgba(0, 0, 0, 0.5)), url('https://res.cloudinary.com/it-s-tech/image/upload/v1580955250/product-photo-three_xqdmpv.jpg')center/cover fixed no-repeat;
     position: relative;
 }
 
@@ -459,13 +459,13 @@ nav{
 
 .filler {
 	min-height: 30vh;
-	background: image_url('afea_poster.jpg')center/cover fixed no-repeat;
+	background: url('https://res.cloudinary.com/it-s-tech/image/upload/v1580955247/afea_poster_jdndog.jpg')center/cover fixed no-repeat;
 }
 
 /*Contact*/
 .contact{
 	min-height: 60vh;
-	background: image_url('hostessesinred.jpeg')center/cover fixed no-repeat;
+	background: url('https://res.cloudinary.com/it-s-tech/image/upload/v1580955270/hostessesinred_w9o2xv.jpg')center/cover fixed no-repeat;
 	display: flex;
 	justify-content: center;
 	align-items: center;
@@ -633,7 +633,7 @@ footer p{
 }
 
 #reviews {
-    background: image_url('photo-1520469823575-f989256cf9fc.jpeg')center/cover fixed no-repeat;
+    background: url('https://res.cloudinary.com/it-s-tech/image/upload/v1580955249/photo-1520469823575-f989256cf9fc_giile5.jpg')center/cover fixed no-repeat;
 }
 
 #events-main-header {
