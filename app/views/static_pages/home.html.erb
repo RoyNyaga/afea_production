@@ -33,6 +33,8 @@
 
 			</nav>
 
+			<%=render "/layouts/flash_messages"%>
+
 			<div class="banner" style="height: 700px;">
 				<div class="banner-center">
 					<%= image_tag("logo.jpg", class: "visible-logo") %>
@@ -231,16 +233,18 @@
 <!-- Contact -->
 		<section id="contact-link" class="contact">
 			<article class="contact-card">
-				<form>
+				<form accept-charset="UTF-8" action="<%=messages_path %>" method="POST">
 					<h3>Leave us a message</h3>
-					<input type="text" id="name" placeholder="Your name">
-					<input type="email" id="email" placeholder="Your email">
-					<textarea name="comment" id="" cols="30" rows="10" placeholder="leave a comment"></textarea>
+					<input name="message[name]" type="text" id="name" placeholder="Your name" required>
+					<input name="message[email]" type="email" id="email" placeholder="Your email" required>
+					<textarea name="message[message]" id="" cols="30" rows="10" placeholder="leave a comment" required></textarea>
+					<input type="hidden" name="authenticity_token" value="<%= form_authenticity_token %>">
 					<button type="submit" class="form-btn">Submit</button>
 				</form>
 			</article>
 		</section>
 <!-- end of Contact -->
+
 
 <!-- footer -->
 		<footer>
