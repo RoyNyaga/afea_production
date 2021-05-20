@@ -82,5 +82,5 @@ gem 'friendly_id', '~> 5.2.4'
 #font awesome 5 gem
 gem 'font_awesome5_rails'
 # Nokogiri
-gem 'nokogiri', '~> 1.6', '>= 1.6.8'
+gem 'nokogiri', '~> 1.11'
 gem "figaro"
